@@ -1,1 +1,68 @@
-// write your code here
+$elementbackground : #697A72;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: #1F2921;
+}
+
+
+
+.main-header {
+    text-align: center;
+    color: #bbb;
+    background-color: $elementbackground;
+    padding: 10px;
+    border-bottom: solid 7px #C02B13;
+}
+
+.main-header__title {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 35px;
+    
+}
+
+.main-header__tagline {
+    font-family: "Roboto Slab", courier ;
+}
+
+.article--sponsored {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+    a {
+        color: #C02B13;
+        text-decoration: none;
+    }
+}
+
+.article--sponsored > * {
+    margin: 5px 0px;
+    color: #bbb;
+}
+
+.article__title {
+    font-family: "Futura", sans-serif;
+    border-bottom: solid 2px #C02B13; 
+    width: 300px;
+}
+
+.article__paragraph {
+    float: right;
+    font-family: "Roboto Slab", courier;
+    position: relative;
+    left: 0px;
+    border-left: solid 2px #c02b13;
+    padding-left: 9px;
+    margin-top: 25px;
+}
+
+.article__author-info {
+}
