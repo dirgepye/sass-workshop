@@ -1,0 +1,17 @@
+@import "lib";
+
+.main-title {
+    @include rounded-corner-box(8px, none, pink)
+}
+
+.kitty-pic {
+    @include rounded(6px, hsla(232, 45%, 37%, 1), hsla(300, 59%, 49%, 1))
+}
+
+.featured {
+    @include rounded-corner-box(4px, #111, hsla(10, 67%, 52%, 1))
+}
+
+.author-image {
+    @include rounded(none, none, hsla(0,0%,0%,0.6))
+}

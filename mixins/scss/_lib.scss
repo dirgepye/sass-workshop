@@ -1,0 +1,12 @@
+@mixin rounded($borderWidth, $borderColor, $shadowColor) {
+    border-radius: 50%;
+    border: solid $borderWidth $borderColor;
+    box-shadow: 10px 10px 5px $shadowColor;
+    
+}
+
+@mixin rounded-corner-box($borderRadius, $borderColor, $bgColor) {
+    border-radius: $borderRadius;
+    border: solid 5px $borderColor;
+    background-color: $bgColor;
+}
